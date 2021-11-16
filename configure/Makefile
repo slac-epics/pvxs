@@ -15,8 +15,15 @@ ifdef T_A
 install: $(TOP)/configure/CONFIG_SITE.Common.$(T_A)
 
 $(TOP)/configure/CONFIG_SITE.Common.$(T_A): toolchain.c
+	$(ECHO) $(PREPROCESS.cpp)
 	$(PREPROCESS.cpp)
 
-CLEANS += ../CONFIG_SITE.Common.$(T_A)
-
 endif
+
+CLEANS += CONFIG_SITE.Common.*
+
+clean:	clean_toolchain
+
+clean_toolchain:
+	$(RM) $(CLEANS)
+
