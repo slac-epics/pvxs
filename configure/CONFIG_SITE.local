@@ -1,4 +1,8 @@
 # CONFIG_SITE.local
 # Use devtoolset gnu toolchain
+ifeq ($(T_A),rhel6-x86_64)
 GNU_DIR = /opt/rh/devtoolset-8/root/usr
+endif
 CROSS_COMPILER_TARGET_ARCHS =
+CMAKE_VERSION = 3.6.1
+CMAKE = $(PSPKG_ROOT)/release/cmake/$(CMAKE_VERSION)/$(T_A)/bin/cmake
