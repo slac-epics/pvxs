@@ -1,4 +1,3 @@
 # CONFIG_SITE.local
-# Use devtoolset gnu toolchain
-GNU_DIR = /opt/rh/devtoolset-6/root/usr
+# Not building cross compiler targets
 CROSS_COMPILER_TARGET_ARCHS =
