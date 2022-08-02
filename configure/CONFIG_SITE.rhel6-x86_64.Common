@@ -1,3 +1,5 @@
 # CONFIG_SITE.rhel6-x86_64.Common
 # Use devtoolset gnu toolchain
+ifneq ($(T_A),linuxRT-x86_64)
 GNU_DIR = /opt/rh/devtoolset-8/root/usr
+endif
