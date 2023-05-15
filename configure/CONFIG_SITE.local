@@ -1,5 +1,5 @@
 # CONFIG_SITE.local
 # Only building cross compiler target arch linuxRT-x86_64
 CROSS_COMPILER_TARGET_ARCHS = linuxRT-x86_64
-CMAKE_VERSION = 3.6.1
-CMAKE = $(PSPKG_ROOT)/release/cmake/$(CMAKE_VERSION)/$(T_A)/bin/cmake
+CMAKE_VERSION = 3.12.2
+CMAKE = $(PACKAGE_TOP)/cmake/$(CMAKE_VERSION)/$(T_A)/bin/cmake
