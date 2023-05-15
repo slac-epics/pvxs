@@ -1,0 +1,12 @@
+#
+# SLAC Release Notes file for pvxs
+#
+# Note that this file is mainly to document SLAC related updates. For the official
+# pvxs release notes, please see here: https://mdavidsaver.github.io/pvxs/releasenotes.html
+#
+
+R1.2.0  2023-05-15   Jesse Bellister
+        Update version of cmake used to 3.12.2 - This is necessary for building the bundled version
+                                                 of libevent from source
+
+        Upstream changes - https://mdavidsaver.github.io/pvxs/releasenotes.html#may-2023
