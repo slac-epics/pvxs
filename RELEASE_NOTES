@@ -5,6 +5,10 @@
 # pvxs release notes, please see here: https://mdavidsaver.github.io/pvxs/releasenotes.html
 #
 
+R1.2.2-0.2.0  2023-08-31   Jesse Bellister
+        Rebase against non-tagged commit c0429dfa9 to pick up needed gateway fix
+        No local changes
+
 R1.2.2-0.1.0  2023-08-20   Jesse Bellister
         Rebase against upstream tag R1.2.2
         No local changes
