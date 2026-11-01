@@ -1,3 +1,0 @@
-# CONFIG_SITE.local
-# Use devtoolset gnu toolchain
-#GNU_DIR = /opt/rh/devtoolset-8/root/usr
