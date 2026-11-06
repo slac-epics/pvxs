@@ -99,7 +99,8 @@ help:
 	$(ECHO) " # remove one target"
 	$(ECHO) " make -C bundle clean.<epics-arch> # remove for one target"
 
-install: libevent
+# Build the bundled libevent for the host arch and for every declared cross target.
+install: libevent $(CROSS_COMPILER_TARGET_ARCHS:%=libevent.%)
 
 libevent: libevent.$(EPICS_HOST_ARCH)
 
